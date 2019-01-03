@@ -7,6 +7,7 @@ for (let button of buttonList) {
   let audioPlayer = button.getElementsByTagName('audio')[0];
 
   function buttonPlay() {
+  	audioPlayer.currentTime = 0;
     audioPlayer.play();
   }
 
